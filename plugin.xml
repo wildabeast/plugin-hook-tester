@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="phonegap-hook-test" version="1.0.0">
+  
+    <name>Hook Test</name>
+
+    <hook type="before_platform_add"      src="hooks/hook.js"/>
+    <hook type="after_platform_add"       src="hooks/hook.js"/>
+    <hook type="before_platform_rm"       src="hooks/hook.js"/> 
+    <hook type="after_platform_rm"        src="hooks/hook.js"/>
+    <hook type="before_platform_ls"       src="hooks/hook.js"/>
+    <hook type="after_platform_ls"        src="hooks/hook.js"/>
+    <hook type="before_prepare"           src="hooks/hook.js"/> 
+    <hook type="after_prepare"            src="hooks/hook.js"/>
+    <hook type="before_compile"           src="hooks/hook.js"/>
+    <hook type="after_compile"            src="hooks/hook.js"/>
+    <hook type="before_deploy"            src="hooks/hook.js"/>
+    <hook type="before_build"             src="hooks/hook.js"/>
+    <hook type="after_build"              src="hooks/hook.js"/>
+    <hook type="before_emulate"           src="hooks/hook.js"/>
+    <hook type="after_emulate"            src="hooks/hook.js"/>
+    <hook type="before_run"               src="hooks/hook.js"/> 
+    <hook type="after_run"                src="hooks/hook.js"/>
+    <hook type="before_serve"             src="hooks/hook.js"/>
+    <hook type="after_serve"              src="hooks/hook.js"/>
+    <hook type="before_clean"             src="hooks/hook.js"/>
+    <hook type="after_clean"              src="hooks/hook.js"/>
+    <hook type="pre_package"              src="hooks/hook.js"/>
+    <hook type="before_plugin_add"        src="hooks/hook.js"/> 
+    <hook type="after_plugin_add"         src="hooks/hook.js"/>
+    <hook type="before_plugin_rm"         src="hooks/hook.js"/> 
+    <hook type="after_plugin_rm"          src="hooks/hook.js"/>
+    <hook type="before_plugin_ls"         src="hooks/hook.js"/>
+    <hook type="after_plugin_ls"          src="hooks/hook.js"/>
+    <hook type="before_plugin_search"     src="hooks/hook.js"/>
+    <hook type="after_plugin_search"      src="hooks/hook.js"/>
+    <hook type="before_plugin_install"    src="hooks/hook.js"/>
+    <hook type="after_plugin_install"     src="hooks/hook.js"/>
+    <hook type="before_plugin_uninstall"  src="hooks/hook.js"/>
+
+</plugin>
